@@ -1,4 +1,25 @@
 # qa-test
+Prerequisites
+Minikube: Ensure Minikube is installed and running.
+Docker: Make sure Docker is installed and configured.
+kubectl: Install kubectl command-line tool.
+Deployment Steps
+Start Minikube:
+
+Deploy Application:
+Run the deployment script 
+sh deploy.sh ---> to deploy the application:
+
+sh deploy.sh
+This script sets up Kubernetes resources for your application.
+
+Testing Steps
+Run Tests:
+Execute the test script test.sh to run integration tests:
+
+sh test.sh
+Ensure that the application is deployed and accessible before running tests.
+
 
 **Kubernetes Deployment:**
 
